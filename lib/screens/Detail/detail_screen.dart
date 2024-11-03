@@ -32,7 +32,7 @@ class _DetailScreenState extends State<DetailScreen> {
           child: Column(
             children: [
               // Back button & favorite button
-              const DetailAppBar(),
+             DetailAppBar(product: widget.product,),
               // Image slider
               MyImageSlider(
                 image: widget.product.image,
@@ -104,7 +104,7 @@ class _DetailScreenState extends State<DetailScreen> {
                             width: 40,
                             height: 40,
                             decoration: BoxDecoration(
-                              shape: BoxShape.circle,
+                              shape: BoxShape.rectangle,
                               color: widget.product.colors[index],
                               border: Border.all(
                                 color: Colors.black,

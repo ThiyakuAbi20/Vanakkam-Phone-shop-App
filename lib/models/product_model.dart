@@ -38,7 +38,7 @@ final List<Product> allProducts = [
     seller: "Tech Essentials",
     category: "Electronics",
     rate: 4.5,
-    quantity: 150,
+    quantity: 1,
   ),
   Product(
     title: "3 Point Adapter",
@@ -50,7 +50,7 @@ final List<Product> allProducts = [
     seller: "Global Connectors",
     category: "Electronics",
     rate: 4.4,
-    quantity: 200,
+    quantity: 1,
   ),
     Product(
       title: "iPod White",
@@ -65,7 +65,7 @@ final List<Product> allProducts = [
             seller: "Apple Store",
              category: "Music Devices",
               rate: 4.7,
-               quantity: 80),
+               quantity: 1),
     Product(title: "AirPod Black",
      review: "50 reviewers",
       description:"Sleek AirPods with rich sound, offering seamless connectivity.",
@@ -76,7 +76,7 @@ final List<Product> allProducts = [
           seller: "AppleStore",
            category: "Earbuds",
             rate: 4.8,
-             quantity: 100),
+             quantity: 1),
     Product(
   title: "3 in 1 Cables",
   review: "30 reviewers",
@@ -87,7 +87,7 @@ final List<Product> allProducts = [
   seller: "Cable Solutions",
   category: "Accessories",
   rate: 4.6,
-  quantity: 300
+  quantity: 1
 ),
 
 Product(
@@ -100,7 +100,7 @@ Product(
   seller: "ChargePro",
   category: "Accessories",
   rate: 4.6,
-  quantity: 220
+  quantity: 1
 ),
 
 Product(
@@ -113,7 +113,7 @@ Product(
   seller: "SoundWorld",
   category: "Earphones",
   rate: 4.3,
-  quantity: 120
+  quantity: 1
 ),
 
 Product(
@@ -126,7 +126,7 @@ Product(
   seller: "SoundWorld",
   category: "Earphones",
   rate: 4.4,
-  quantity: 130
+  quantity:1
 ),
 
 Product(
@@ -139,7 +139,7 @@ Product(
   seller: "AudioMax",
   category: "Headsets",
   rate: 4.7,
-  quantity: 50
+  quantity:1
 ),
 
 Product(
@@ -152,7 +152,7 @@ Product(
   seller: "AudioMax",
   category: "Headsets",
   rate: 4.5,
-  quantity: 45
+  quantity: 1
 ),
 
 Product(
@@ -165,7 +165,7 @@ Product(
   seller: "Apple Store",
   category: "Smartphones",
   rate: 4.9,
-  quantity: 40
+  quantity:1
 ),
 
 Product(
@@ -178,7 +178,7 @@ Product(
   seller: "Oppo Official",
   category: "Smartphones",
   rate: 4.8,
-  quantity: 60
+  quantity: 1
 ),
 
 Product(
@@ -191,7 +191,7 @@ Product(
   seller: "Samsung Official",
   category: "Smartphones",
   rate: 4.7,
-  quantity: 55
+  quantity: 1
 ),
 
 Product(
@@ -204,7 +204,7 @@ Product(
   seller: "Xiaomi Store",
   category: "Smartphones",
   rate: 4.4,
-  quantity: 150
+  quantity: 1
 ),
 
 Product(
@@ -218,7 +218,7 @@ Product(
   seller: "Samsung Official",
   category: "Smartphones",
   rate: 4.5,
-  quantity: 100
+  quantity: 1
 ),
 
 Product(
@@ -231,7 +231,7 @@ Product(
   seller: "Oppo Official",
   category: "Smartphones",
   rate: 4.6,
-  quantity: 80
+  quantity: 1
 ),
             
 ];
@@ -249,7 +249,7 @@ Product(
             seller: "Apple Store",
              category: "Music Devices",
               rate: 4.7,
-               quantity: 80),
+               quantity: 1),
     Product(title: "AirPod Black",
      review: "66 reviewers",
       description:"Sleek AirPods with rich sound, offering seamless connectivity.",
@@ -260,7 +260,7 @@ Product(
           seller: "AppleStore",
            category: "Earbuds",
             rate: 4.8,
-             quantity: 100),
+             quantity: 1),
              Product(
   title: "Earphone White",
   review: "40 reviewers",
@@ -271,7 +271,7 @@ Product(
   seller: "SoundWorld",
   category: "Earphones",
   rate: 4.3,
-  quantity: 120
+  quantity: 1
 ),
 
 Product(
@@ -284,7 +284,7 @@ Product(
   seller: "SoundWorld",
   category: "Earphones",
   rate: 4.4,
-  quantity: 130
+  quantity: 1
 ),
 
 Product(
@@ -297,7 +297,7 @@ Product(
   seller: "AudioMax",
   category: "Headsets",
   rate: 4.7,
-  quantity: 50
+  quantity: 1
 ),
 
 Product(
@@ -310,7 +310,7 @@ Product(
   seller: "AudioMax",
   category: "Headsets",
   rate: 4.5,
-  quantity: 45
+  quantity: 1
 ),
 ];
 final List<Product> phone = [
@@ -324,7 +324,7 @@ Product(
   seller: "Apple Store",
   category: "Smartphones",
   rate: 4.9,
-  quantity: 40
+  quantity: 1
 ),
 
 Product(
@@ -337,7 +337,7 @@ Product(
   seller: "Oppo Official",
   category: "Smartphones",
   rate: 4.8,
-  quantity: 60
+  quantity:1
 ),
 
 Product(
@@ -350,7 +350,7 @@ Product(
   seller: "Samsung Official",
   category: "Smartphones",
   rate: 4.7,
-  quantity: 55
+  quantity: 1
 ),
 
 Product(
@@ -363,7 +363,7 @@ Product(
   seller: "Xiaomi Store",
   category: "Smartphones",
   rate: 4.4,
-  quantity: 150
+  quantity: 1
 ),
 
 Product(
@@ -377,7 +377,7 @@ Product(
   seller: "Samsung Official",
   category: "Smartphones",
   rate: 4.5,
-  quantity: 100
+  quantity:1
 ),
 
 Product(
@@ -390,7 +390,7 @@ Product(
   seller: "Oppo Official",
   category: "Smartphones",
   rate: 4.6,
-  quantity: 80
+  quantity: 1
 ),
 ];
 final List<Product> adapter = [
@@ -408,7 +408,7 @@ Product(
      seller: "Tech Essentials",
       category: "Electronics", 
       rate: 4.5,
-      quantity: 150
+      quantity: 1
     ),
     Product(
       title: "3 Point Adapter",
@@ -424,7 +424,7 @@ Product(
       seller: "Global Connectors",
        category: "Electronics",
        rate: 4.4,
-       quantity: 200,
+       quantity: 1,
     ),
 ];
 final List<Product> phonecase = [
@@ -441,7 +441,7 @@ Product(
   seller: "ChargePro",
   category: "Accessories",
   rate: 4.6,
-  quantity: 220
+  quantity: 1
 ),
 Product(
   title: "3 in 1 Cables",
@@ -453,6 +453,6 @@ Product(
   seller: "Cable Solutions",
   category: "Accessories",
   rate: 4.6,
-  quantity: 300
+  quantity: 1
 ),
 ];

@@ -1,7 +1,9 @@
 import 'package:e_commerce/constants.dart';
 import 'package:e_commerce/screens/Cart/cart_screen.dart';
 import 'package:e_commerce/screens/Home/home_screen.dart';
-import 'package:e_commerce/screens/favorite.dart';
+import 'package:e_commerce/screens/Favorite/favorite.dart';
+import 'package:e_commerce/screens/Profile/profile.dart';
+import 'package:e_commerce/screens/Welcome/welcome.dart';
 import 'package:flutter/material.dart';
 
 class BottomNavBar extends StatefulWidget {
@@ -14,11 +16,12 @@ class BottomNavBar extends StatefulWidget {
 class _BottomNavBarState extends State<BottomNavBar> {
   int cuttenIndex = 2;
   List screens = const [
-              Scaffold(),
+              
+              Welcome(),
               Favorite(),
               HomeScreen(),
               CartScreen(),
-              Scaffold(),
+              Profile(),
             ];
   @override
   Widget build(BuildContext context) {
