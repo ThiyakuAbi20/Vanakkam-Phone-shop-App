@@ -2,8 +2,8 @@ import 'package:e_commerce/constants.dart';
 import 'package:flutter/material.dart';
 
 class Description extends StatelessWidget {
-  final String text;
-  const Description({super.key, required this.text});
+  final String description;
+  const Description({super.key, required this.description});
 
   @override
   Widget build(BuildContext context) {
@@ -47,10 +47,10 @@ class Description extends StatelessWidget {
         ),
         const SizedBox(height: 10), // Add some space below the row
         Text(
-          text,
+          description,
           style: const TextStyle(
             fontSize: 16,
-            color: Colors.black,
+            color: Colors.grey,
           ),
         ),
       ],

@@ -1,5 +1,6 @@
 import 'package:e_commerce/constants.dart';
 import 'package:e_commerce/models/product_model.dart';
+import 'package:e_commerce/screens/Detail/widget/addto_cart.dart';
 import 'package:e_commerce/screens/Detail/widget/description.dart';
 import 'package:e_commerce/screens/Detail/widget/detail_app_bar.dart';
 import 'package:e_commerce/screens/Detail/widget/image_slider.dart';
@@ -23,6 +24,9 @@ class _DetailScreenState extends State<DetailScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: kcontentColor,
+      //for add to cart, icon and quantity
+      floatingActionButton:AddtoCart(product: widget.product) ,
+      floatingActionButtonLocation: FloatingActionButtonLocation.centerDocked,
       body: SafeArea(
         child: SingleChildScrollView(
           child: Column(
@@ -125,7 +129,7 @@ class _DetailScreenState extends State<DetailScreen> {
                     ),
                     const SizedBox(height: 25,),
                     //for description
-                    Description(text: widget.product.title)
+                    Description(description: widget.product.description)
                   ],
                 ),
               ),
